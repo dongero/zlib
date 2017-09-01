@@ -1,6 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP JACK-DC
+D Jack, Mono with switch and ground
+K JACK
+$ENDCMP
+#
 $CMP JACK-MONO
+D Jack, Mono with switch and ground
+K JACK
+$ENDCMP
+#
+$CMP JACK-TIP_GND
 D Jack, Mono with switch and ground
 K JACK
 $ENDCMP
