@@ -10,4 +10,9 @@ D Jack, Mono with switch and ground
 K JACK
 $ENDCMP
 #
+$CMP JACK-TIP_GND
+D Jack, Mono with switch and ground
+K JACK
+$ENDCMP
+#
 #End Doc Library
