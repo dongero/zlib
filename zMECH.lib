@@ -1,6 +1,7 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+<<<<<<< Updated upstream
 # BreadBoardHoles
 #
 DEF BreadBoardHoles BB 0 40 Y Y 1 F N
@@ -14,6 +15,24 @@ C -170 0 10 0 1 0 N
 C -140 0 10 0 1 0 N
 C -110 0 10 0 1 0 N
 X ~ 1 -200 0 100 R 25 50 1 1 P
+=======
+# 9v_Battery_Clip
+#
+DEF 9v_Battery_Clip J 0 0 N N 1 F N
+F0 "J" -250 -300 60 H V C CNN
+F1 "9v_Battery_Clip" 400 -300 60 H V C CNN
+F2 "" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
+DRAW
+T 0 50 50 60 0 0 0 + Normal 0 C C
+T 0 50 -50 60 0 0 0 - Normal 0 C C
+T 0 -50 0 60 0 0 0 9v Normal 0 C C
+S 100 -80 120 -25 0 0 0 N
+S 100 70 120 30 0 0 0 N
+S -150 -100 100 100 0 1 0 N
+X V 1 200 50 79 L 50 50 1 1 P
+X wGND 2 200 -50 79 L 50 50 1 1 P
+>>>>>>> Stashed changes
 ENDDRAW
 ENDDEF
 #
@@ -47,6 +66,24 @@ P 4 0 0 0 -50 150 0 50 50 150 450 150 N
 X SIG 1 450 150 79 L 50 50 1 1 P
 X SHEILD 2 -150 -100 118 U 50 50 1 1 P
 X SW 3 250 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# JACK-STEREO
+#
+DEF JACK-STEREO J 0 0 N N 1 F N
+F0 "J" -250 -300 60 H V C CNN
+F1 "JACK-STEREO" 300 -200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -100 0 -150 150 0 1 0 N
+P 4 0 0 0 -50 150 0 50 50 150 450 150 N
+P 4 0 0 0 50 0 100 100 150 0 550 0 N
+P 4 0 0 0 50 0 100 100 150 0 550 0 N
+X SW 1 550 0 200 L 50 50 1 1 P
+X SIG 2 500 150 79 L 50 50 1 1 P
+X SHEILD 3 -150 -100 118 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

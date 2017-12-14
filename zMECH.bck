@@ -10,6 +10,14 @@ D Jack, Mono with switch and ground
 K JACK
 $ENDCMP
 #
+<<<<<<< Updated upstream
+=======
+$CMP JACK-STEREO
+D Jack, Mono with switch and ground
+K JACK
+$ENDCMP
+#
+>>>>>>> Stashed changes
 $CMP JACK-TIP_GND
 D Jack, Mono with switch and ground
 K JACK
